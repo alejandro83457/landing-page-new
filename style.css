@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
+  padding: 12px 32px;
 }
 
 .header-logo {
@@ -24,5 +25,58 @@ header {
 
 a {
   text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  padding: 32px 32px;
+  gap: 16px;
+}
+
+.hero > * {
+  flex: 1;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  /* padding: 32px; */
+  gap: 12px;
+}
+
+.hero-left-heading {
+  font-size: 48px;
+  font-weight: bold;
   color: #f9faf8;
+}
+
+.hero-left-text {
+  color: #e5e7eb;
+}
+
+.hero-left-button {
+  background-color: #3882f6;
+  border: black solid 1px;
+  color: #f9faf8;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+.hero-right {
+  color: #f9faf8;
+  /* padding: 32px; */
+}
+
+.hero-right-image {
+  background-color: #8a8a91;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
