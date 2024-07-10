@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 12px 64px;
+  padding: 12px 15%;
 }
 
 .header-logo {
@@ -33,7 +33,7 @@ a {
   display: flex;
   background-color: #1f2937;
   justify-content: center;
-  padding: 32px 64px;
+  padding: 32px 15%;
   padding-bottom: 72px;
   gap: 16px;
 }
@@ -167,4 +167,11 @@ a {
   background-color: #3882f6;
   color: #f9faf8;
   padding: 4px 24px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 24px 0;
+  text-align: center;
 }
